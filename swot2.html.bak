@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Titre de la page</title>
+    <style>
+table {
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+}
+
+html, body {
+  height: 100%;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#swot {
+  color: #5a00b5;
+  background-color: #cccccc;
+}
+
+#bg_swot {
+  background-color: #cccccc;
+}
+
+</style> </head>
+  <body style="  background-color: #cccccc;">
+    <h1 id="swot">Analyse SWOT</h1>
+    <p><br>
+    </p>
+    <table>
+      <tbody>
+        <tr>
+          <td> <video id="bg_swot" controls="controls" height="360" width="640">
+              <source src="chemin/vers/la/video.mp4" type="video/mp4"> <source
+                src="swot.webm" type="video/webm"> Votre navigateur ne supporte
+              pas la lecture de vidéos. </video> </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
